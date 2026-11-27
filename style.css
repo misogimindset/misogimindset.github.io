@@ -1,24 +1,13 @@
+/* Dark only, whatever the visitor's system setting (owner's choice, 2026-11-26). */
 :root {
-  color-scheme: light dark;
-  --bg: #ffffff;
-  --text: #1c1c1e;
-  --muted: #636366;
-  --rule: #e5e5ea;
-  --card: #f2f2f7;
-  --accent: #e06c00;
-  --link: #0066cc;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #000000;
-    --text: #f2f2f7;
-    --muted: #a1a1a6;
-    --rule: #2c2c2e;
-    --card: #1c1c1e;
-    --accent: #ff9230;
-    --link: #4da3ff;
-  }
+  color-scheme: dark;
+  --bg: #000000;
+  --text: #f2f2f7;
+  --muted: #a1a1a6;
+  --rule: #2c2c2e;
+  --card: #1c1c1e;
+  --accent: #ff9230;
+  --link: #4da3ff;
 }
 
 * { box-sizing: border-box; }
